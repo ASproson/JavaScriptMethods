@@ -71,6 +71,7 @@ const method = arr => {
 ```arr.every(item => item < 3))``` returns  false <br>
 ```arrFour.flat()``` returns ['a', 'b', 'c', 'd'] <br>
 ```split.join("")``` returns ‘Testing phrase’<br>
+```arr.includes(2)``` returns true : false<br>
 ```arr.some(item => item > 4)``` returns true<br>
 ```arr.slice(2, 4)``` returns [3, 4]<br>
 ```arr.splice(1, 3)``` returns [1, 5] (removes 2, 3, 4 from the array)<br>
